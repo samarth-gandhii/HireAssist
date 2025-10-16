@@ -1,0 +1,15 @@
+Kabir Singh
+Email: kabir.singh@gmail.com | Phone: +91-9998877665
+
+Summary:
+Backend Engineer with solid understanding of APIs, databases, and scalability.
+
+Skills:
+- Java, Spring Boot, Hibernate
+- PostgreSQL, MongoDB
+- Docker, CI/CD, Jenkins
+
+Achievements:
+- Developed scalable REST APIs for e-commerce app
+- Improved backend response time by 40%
+- Mentored junior developers in Java

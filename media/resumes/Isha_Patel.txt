@@ -1,0 +1,15 @@
+Isha Patel
+Email: isha.patel@gmail.com | Phone: +91-9800112233
+
+Summary:
+Data Scientist focused on predictive modeling and big data.
+
+Skills:
+- Python, R, TensorFlow
+- Machine Learning, Data Mining
+- Apache Spark, Hadoop, SQL
+
+Achievements:
+- Built predictive models for customer churn
+- Published 2 Kaggle notebooks in top 10%
+- Developed data preprocessing pipelines for large datasets

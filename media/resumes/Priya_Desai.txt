@@ -1,0 +1,15 @@
+Priya Desai
+Email: priyadesai@gmail.com | Phone: +91-9900011122
+
+Summary:
+UX/UI Designer crafting user-centered digital experiences.
+
+Skills:
+- Figma, Adobe XD
+- Wireframing, Prototyping, Usability Testing
+- Frontend basics: HTML, CSS, JS
+
+Achievements:
+- Designed onboarding UI for fintech app with 10k+ users
+- Conducted 20+ user interviews for UX research
+- Awarded “Best Design” in college hackathon

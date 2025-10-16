@@ -1,0 +1,20 @@
+Candidate Name: Karan_Jain
+Email: Karan_Jain@gmail.com
+
+Summary:
+Highly motivated and results-driven professional with experience in software development. Skilled in project execution, teamwork, and leadership.
+
+Skills:
+- Python, Django, REST APIs, MySQL, Git
+
+Achievements:
+- Completed a web automation tool
+- Received recognition for improving API efficiency by 30%
+- Successfully led a team of 5 members in a web automation tool
+
+Experience:
+- Worked at TechNova as Backend Developer for 2 years.
+- Contributed to improving API efficiency by 30%.
+
+Education:
+- Bachelor’s in B.Tech Computer Science, 2022

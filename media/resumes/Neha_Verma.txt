@@ -1,0 +1,15 @@
+Neha Verma
+Email: neha.v@gmail.com | Phone: +91-9811223344
+
+Summary:
+Software Engineer specialized in mobile app development using Flutter and Firebase.
+
+Skills:
+- Flutter, Dart
+- Firebase, Cloud Firestore
+- Android Studio, REST APIs
+
+Achievements:
+- Published 2 Android apps on Play Store
+- Implemented push notifications and authentication
+- Collaborated with a 4-member agile team

@@ -1,0 +1,15 @@
+Dev Rathod
+Email: devrathod@gmail.com | Phone: +91-9887766554
+
+Summary:
+Cybersecurity enthusiast focused on penetration testing and vulnerability analysis.
+
+Skills:
+- Kali Linux, Burp Suite, Wireshark
+- Python Scripting, Metasploit
+- Network Security, Cryptography
+
+Achievements:
+- Identified critical flaws in internal web app
+- Certified Ethical Hacker (CEH)
+- Led a cybersecurity awareness campaign

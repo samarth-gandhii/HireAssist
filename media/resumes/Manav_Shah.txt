@@ -1,0 +1,15 @@
+Manav Shah
+Email: manavshah@gmail.com | Phone: +91-9877000099
+
+Summary:
+DevOps Engineer with expertise in cloud automation and CI/CD pipelines.
+
+Skills:
+- AWS, Azure, Docker, Kubernetes
+- Jenkins, Terraform, GitHub Actions
+- Linux Administration
+
+Achievements:
+- Automated deployment pipelines for microservices
+- Reduced cloud costs by 25%
+- AWS Certified Solutions Architect

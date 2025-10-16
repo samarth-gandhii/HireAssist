@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HireAssist - Resume Manager</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #007bff;
+            --success-color: #28a745;
+            --info-color: #17a2b8;
+            --dark-color: #343a40;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        
+        .main-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        /* .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .glass-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+        } */
+        
+        /* .feature-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+         */
+        /* .icon-primary {
+            background: linear-gradient(135deg, var(--primary-color), #0056b3);
+            color: white;
+        }
+        
+        .icon-success {
+            background: linear-gradient(135deg, var(--success-color), #1e7e34);
+            color: white;
+        }
+        
+        .icon-info {
+            background: linear-gradient(135deg, var(--info-color), #138496);
+            color: white;
+        } */
+        
+        .hero-section {
+            text-align: center;
+            padding: 3rem 0 2rem 0;
+        }
+        
+         .gradient-text {
+            background: linear-gradient(135deg, var(--primary-color), var(--info-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        /*.nav-pill {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 50px;
+            padding: 0.5rem;
+            display: inline-flex;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+        }
+         */
+        /* .stats-card {
+            background: linear-gradient(135deg, var(--primary-color), var(--info-color));
+            color: white;
+            border: none;
+        }
+        
+        .btn-modern {
+            border-radius: 10px;
+            padding: 0.5rem 1.5rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .btn-modern:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); 
+        }*/
+    </style>
+</head>
+<body>
+    <div class="main-container py-4">
+        <!-- Navigation -->
+        <div class="d-flex justify-content-between align-items-center mb-5">
+            <div class="d-flex align-items-center">
+                <h3 class="fw-bold gradient-text mb-0">HireAssist®</h3>
+                <!-- <span class="text-muted ms-3 small">Resume Based Hiring Assistant</span> -->
+            </div>
+            <a href="{% url 'logout' %}" class="btn btn-outline-dark btn-sm btn-modern">
+                Logout
+            </a>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <h1 class="display-5 fw-bold mb-3">Intelligent Candidate Screening & Management</h1>
+            <p class="text-muted lead mb-4">
+                Streamline your hiring process with AI-powered resume analysis and candidate management
+            </p>
+        </div>
+
+        <!-- Main Features Grid -->
+        <div class="row g-4 mb-5">
+            <!-- Upload & Rank -->
+            <!-- <div class="col-lg-4 col-md-6">
+                <div class="glass-card h-100 p-4">
+                    <div class="feature-icon icon-primary">
+                        📊
+                    </div>
+                    <h5 class="fw-bold mb-3">Upload & Rank Resumes</h5>
+                    <p class="text-muted small mb-4">
+                        Upload new resumes, analyze skills, and get intelligent ranking based on keyword matching and relevance scoring.
+                    </p>
+                    <a href="{% url 'upload_resume' %}" class="btn btn-outline-primary btn-modern w-100">
+                        Start Ranking
+                    </a>
+                </div>
+            </div> -->
+
+            <!-- Manage Employees -->
+            <!-- <div class="col-lg-4 col-md-6">
+                <div class="glass-card h-100 p-4">
+                    <div class="feature-icon icon-success">
+                        👥
+                    </div>
+                    <h5 class="fw-bold mb-3">Manage Employees</h5>
+                    <p class="text-muted small mb-4">
+                        View, edit, and manage your hired candidates in a comprehensive employee database with detailed profiles.
+                    </p>
+                    <a href="{% url 'manage_employees' %}" class="btn btn-outline-success btn-modern w-100">
+                        Manage Team
+                    </a>
+                </div>
+            </div> -->
+
+            <!-- View Resumes -->
+            <!-- <div class="col-lg-4 col-md-6">
+                <div class="glass-card h-100 p-4">
+                    <div class="feature-icon icon-info">
+                        📁
+                    </div>
+                    <h5 class="fw-bold mb-3">Browse Resumes</h5>
+                    <p class="text-muted small mb-4">
+                        Access all uploaded resumes, search through candidate documents, and manage your talent pipeline efficiently.
+                    </p>
+                    <a href="{% url 'resume_list' %}" class="btn btn-outline-info btn-modern w-100">
+                        View All Resumes
+                    </a>
+                </div>
+            </div>
+        </div> -->
+
+
+        
+        <!-- Options Section -->
+        <div class="row">
+            <!-- Upload & Rank Card -->
+            <div class="col-md-6 mb-4">
+                <div class="card option-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Upload & Rank Resumes</h5>
+                        <p class="card-text text-muted small">
+                            Upload new resumes, enter keywords, and get intelligent ranking based on skill matching.
+                        </p>
+                        <a href="{% url 'upload_resume' %}" class="btn btn-outline-primary btn-sm">
+                            Start Ranking
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Manage Employees Card -->
+            <div class="col-md-6 mb-4">
+                <div class="card option-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Manage Employees</h5>
+                        <p class="card-text text-muted small">
+                            View, edit, and manage hired candidates in your employee database.
+                        </p>
+                        <a href="{% url 'manage_employees' %}" class="btn btn-outline-success btn-sm"> 
+                            Manage Team
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+          <!-- See Uploaded Resumes Card -->
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card option-card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">See Uploaded Resumes</h5>
+                        <p class="card-text text-muted small mb-3">
+                            Browse all uploaded resumes and manage candidate documents.
+                        </p>
+                        <a href="{% url 'resume_list' %}" class="btn btn-outline-info">
+                            View All Resumes
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+               <!-- Quick Stats -->
+        <div class="card mt-4">
+            <div class="card-body py-3">
+                <div class="row text-center">
+                    <div class="col-6">
+                        <strong class="h5">{{ total_resumes }}</strong>
+                        <p class="small text-muted mb-0">Total Resumes</p>
+                    </div>
+                    <div class="col-6">
+                        <strong class="h5">{{ total_employees }}</strong>
+                        <p class="small text-muted mb-0">Hired Employees</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Quick Actions -->
+            <!-- <div class="col-lg-4">
+                <div class="glass-card p-4 h-100">
+                    <h6 class="fw-bold text-muted mb-3">QUICK ACTIONS</h6>
+                    <div class="d-grid gap-2">
+                        <a href="{% url 'upload_resume' %}" class="btn btn-outline-primary btn-sm btn-modern text-start">
+                            ➕ Upload New Resume
+                        </a>
+                        <a href="{% url 'resume_list' %}" class="btn btn-outline-info btn-sm btn-modern text-start">
+                            👀 View Recent Resumes
+                        </a>
+                        <a href="{% url 'manage_employees' %}" class="btn btn-outline-success btn-sm btn-modern text-start">
+                            🏢 Manage Team
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Footer -->
+        <div class="text-center mt-5 pt-4">
+            <p class="small text-muted border-top pt-3">
+                Resume Management System • Streamlining Your Hiring Process
+            </p>
+        </div>
+    </div>
+</body>
+</html>
